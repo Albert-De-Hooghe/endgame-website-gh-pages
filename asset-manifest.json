@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/endgame-website-gh-pages/static/css/main.f855e6bc.css",
-    "main.js": "/endgame-website-gh-pages/static/js/main.5488fa4b.js",
-    "static/js/787.d4aba7ab.chunk.js": "/endgame-website-gh-pages/static/js/787.d4aba7ab.chunk.js",
-    "static/media/logo.svg": "/endgame-website-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/endgame-website-gh-pages/static/css/main.57a519e4.css",
+    "main.js": "/endgame-website-gh-pages/static/js/main.691e0681.js",
     "index.html": "/endgame-website-gh-pages/index.html",
-    "main.f855e6bc.css.map": "/endgame-website-gh-pages/static/css/main.f855e6bc.css.map",
-    "main.5488fa4b.js.map": "/endgame-website-gh-pages/static/js/main.5488fa4b.js.map",
-    "787.d4aba7ab.chunk.js.map": "/endgame-website-gh-pages/static/js/787.d4aba7ab.chunk.js.map"
+    "main.57a519e4.css.map": "/endgame-website-gh-pages/static/css/main.57a519e4.css.map",
+    "main.691e0681.js.map": "/endgame-website-gh-pages/static/js/main.691e0681.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.5488fa4b.js"
+    "static/css/main.57a519e4.css",
+    "static/js/main.691e0681.js"
   ]
 }
