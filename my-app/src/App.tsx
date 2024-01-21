@@ -1,25 +1,38 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { HashRouter, BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
+import Pawns from './pawns';
+import Root from './routes/root';
 
 function App() {
+
+  const navigate = useNavigate();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit test 2 <code>src/App.tsx</code> and save to reload.
-        </p>  
-        <a
-          className="App-link"  
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   <button onClick={() => navigate('/')}>Home</button>
+   <button onClick={() => navigate('/about')}>About</button>
+   <Routes>
+     <Route path="/" element={ <Root/> } />
+     <Route path="/about" element={ <div>about</div> } />
+   </Routes>
+</>
+    
+    /*
+    <HashRouter>
+      <Root></Root>
+      
+      <Routes>
+
+        
+        <Route path="/pawns" element={<Pawns></Pawns>} />
+
+        <Route path="/knights-vs-pawns" element={<div>a venir</div>} />
+        <Route path="/knights" element={<div>a venir</div>} />
+        <Route path="/bishop-vs-pawns" element={<div>a venir</div>} />
+        
+      </Routes>
+    </HashRouter>*/
   );
 }
 
